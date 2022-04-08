@@ -1,0 +1,12 @@
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper img {
+  display: inline-block;
+}
+
+.logo-title {
+  margin-left: 8px;
+}

@@ -1,0 +1,111 @@
+.footer-wrapper {
+  background-color: #000000;
+  padding: 4rem 0;
+  position: relative;
+  z-index: 2;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 80%;
+  color: #fff;
+  width: 100%;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1.6rem;
+}
+
+.footer-items .footer-left {
+  width: 50%;
+}
+
+.footer-left p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.tnc {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.footer-cta {
+  padding: 1rem 0;
+}
+
+.footer-cta span {
+  display: inline-block;
+}
+
+.footer-cta span:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.footer-links {
+  font-family: 'Exo 2', sans-serif; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links div:nth-child(2) {
+  width: 50%;
+}
+
+.footer-links div:nth-child(2) p {
+  padding: 1.2rem 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.footer-links div:nth-child(2) input {
+  padding: 12px;
+  border-radius: 35px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent url(/public/assets/images/small-circle-button.svg) no-repeat right 4px center;;
+}
+
+.footer-links div:nth-child(2) input::placeholder {
+  color: #fff;
+}
+
+.footer-links div h3 {
+  color: #be7136;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer-links ul {
+  margin-top: 1.5rem;
+}
+
+.footer-links ul li {
+  margin-top: 1.2rem;
+}
+
+.footer-links div ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+}

@@ -1,0 +1,54 @@
+.features {
+  display: flex;
+  margin-top: 9rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.features-tab {
+  width: 50%;
+  height: 412px;
+}
+
+.features-tab span {
+  display: inline-block;
+  color: #be7136;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.features-text-title {
+  font-family: "Marcellus", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+}
+
+.features-text-body {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0px;
+  margin-top: 2rem;
+}
+
+.feature-tab-item {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.feature-tab-item p {
+  font-family: "Marcellus", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  color: #be7136;
+  cursor: pointer;
+}
+
